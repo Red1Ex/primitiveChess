@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    box-sizing: content-box;
+    width: 400px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 10px solid rgb(72, 19, 2);
+}
+
+.cell{
+    box-sizing: content-box;
+    width: 50px;
+    height: 50px;
+}
+
+.cell--white{
+    background-color: rgb(204, 178, 118);
+}
+
+.cell--black{
+    background-color: rgb(154, 86, 27);
+}
+
+.item{
+    width: 100%;
+    height: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+.superStyle{
+    background-color: rgba(0, 191, 255, 0.5);
+}
+
+.lost{
+    width: 320px;
+    height: 42px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(251, 138, 255);
+}
+
+.lost__sell__first{
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+
+.lost__sell__second{
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+
+.lost__sell__first img, .lost__sell__second img{
+    width: 100%;
+    height: 100%;
+}
